@@ -14,6 +14,8 @@
 		F537C4ED206B54160070AA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F537C4EB206B54160070AA9D /* LaunchScreen.storyboard */; };
 		F537C4F8206B54160070AA9D /* OddeRacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537C4F7206B54160070AA9D /* OddeRacingTests.swift */; };
 		F537C503206B54160070AA9D /* OddeRacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F537C502206B54160070AA9D /* OddeRacingUITests.swift */; };
+		F5855CA320711C890003D8FA /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5855CA220711C890003D8FA /* Menu.storyboard */; };
+		F5855CA5207123D30003D8FA /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5855CA4207123D30003D8FA /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F537C4FE206B54160070AA9D /* OddeRacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OddeRacingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F537C502206B54160070AA9D /* OddeRacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddeRacingUITests.swift; sourceTree = "<group>"; };
 		F537C504206B54160070AA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5855CA220711C890003D8FA /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		F5855CA4207123D30003D8FA /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F537C4E9206B54160070AA9D /* Assets.xcassets */,
 				F537C4EB206B54160070AA9D /* LaunchScreen.storyboard */,
 				F537C4EE206B54160070AA9D /* Info.plist */,
+				F5855CA220711C890003D8FA /* Menu.storyboard */,
+				F5855CA4207123D30003D8FA /* MenuVC.swift */,
 			);
 			path = OddeRacing;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				F537C4ED206B54160070AA9D /* LaunchScreen.storyboard in Resources */,
 				F537C4EA206B54160070AA9D /* Assets.xcassets in Resources */,
 				F537C4E8206B54160070AA9D /* Main.storyboard in Resources */,
+				F5855CA320711C890003D8FA /* Menu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			files = (
 				F537C4E5206B54160070AA9D /* ViewController.swift in Sources */,
 				F537C4E3206B54160070AA9D /* AppDelegate.swift in Sources */,
+				F5855CA5207123D30003D8FA /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3QRE33UEH;
 				INFOPLIST_FILE = OddeRacing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.OddeRacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K3QRE33UEH;
 				INFOPLIST_FILE = OddeRacing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.OddeRacing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
